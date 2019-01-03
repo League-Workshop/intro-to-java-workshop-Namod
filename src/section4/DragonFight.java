@@ -7,7 +7,6 @@ import javax.swing.ImageIcon;
 public class DragonFight {
 	// 1. Create a main method and put all of the code below inside of it
 	public static void main(String[] args) {
-		
 		ImageIcon dragon = new ImageIcon("src/section4/dragonPicture.jpg");		
 		
 		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
